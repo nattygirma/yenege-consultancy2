@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/yenege-consultancy/static/css/main.2e48e682.css",
+    "main.js": "/yenege-consultancy/static/js/main.fbcf53f7.js",
+    "static/media/3a.png": "/yenege-consultancy/static/media/3a.68a37f870e518f203b7c.png",
+    "static/media/bg-5.png": "/yenege-consultancy/static/media/bg-5.8bf9dc8828704969ceae.png",
+    "static/media/bg-4.png": "/yenege-consultancy/static/media/bg-4.b61c67a4eb8ed5d307c0.png",
+    "static/media/bg-2.png": "/yenege-consultancy/static/media/bg-2.2b6238dd9d02c8c35a7a.png",
+    "static/media/back.webp": "/yenege-consultancy/static/media/back.93d3f802b480eeabae07.webp",
+    "static/media/bg-1.jpg": "/yenege-consultancy/static/media/bg-1.26a48dfbf45f11a224c5.jpg",
+    "static/media/bg-4.jpeg": "/yenege-consultancy/static/media/bg-4.18b9f42617da8772200f.jpeg",
+    "static/media/awrapper.webp": "/yenege-consultancy/static/media/awrapper.031ce77a398171427673.webp",
+    "index.html": "/yenege-consultancy/index.html",
+    "main.2e48e682.css.map": "/yenege-consultancy/static/css/main.2e48e682.css.map",
+    "main.fbcf53f7.js.map": "/yenege-consultancy/static/js/main.fbcf53f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e48e682.css",
+    "static/js/main.fbcf53f7.js"
+  ]
+}
