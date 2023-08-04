@@ -1,20 +1,22 @@
 import React from "react"
 import ServicesCard from "../services/ServicesCard"
-// import Hblog from "./Hblog"
-import HAbout from "./HAbout"
+import Hospitals from "../hospitals/HospitalsList"
 import Hero from "./hero/Hero"
-// import Hprice from "./Hprice"
-// import Testimonal from "./testimonal/Testimonal"
+import Hsteps from "./HSteps"
+import Treatments from "./HTreatments"
+import ContactUs from "../contact/ContactCard"
+import Faq from "../pricing/Faq"
 
 const Home = () => {
   return (
     <>
       <Hero />
       <ServicesCard />
-      {/* <HAbout /> */}
-      {/* <Testimonal />
-      <Hblog />
-      <Hprice /> */}
+      <Hsteps />
+       <Hospitals /> 
+       <Treatments/>
+       <ContactUs />
+      <Faq/>
     </>
   )
 }

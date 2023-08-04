@@ -1,0 +1,16 @@
+.hospitals-list{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+
+ @media screen and (max-width: 968px) {
+  .hospitals-list{
+    grid-template-columns: repeat(2, 1fr);
+}
+ }
+ @media screen and (max-width: 500px) {
+    .hospitals-list{
+      grid-template-columns: repeat(1, 1fr);
+  }
+   }

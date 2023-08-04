@@ -53,7 +53,7 @@ li {
   }
 .button a {
 
-  padding: 17px 30px;
+  padding: 17px 25px;
   font-weight: 600;
   border: none;
   margin: 30px 10px 0 0;
@@ -145,13 +145,19 @@ p {
   text-align: center;
 }
 .back-mt{
-  background-image: url("../public/images/background/mt.jpg") !important;
+  background-image:linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)),  url("../public/images/new/3a.png") !important;
 }
 .back-s{
-  background-image: url("../public/images/bg.webp") !important;
+  background-image:linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-4.jpeg") !important;
 }
 .back-ec{
-  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/background/ec.jpg") !important;
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-4.png") !important;
+}
+.back-treatments{
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-2.png") !important;
+}
+.back-contact{
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-5.png") !important;
 }
 .back h1 {
   font-size: 100px;
@@ -178,6 +184,16 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
+@media screen and (max-width: 1200px) {
+  .grid2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
 .outline-btn {
   margin: 0;
   box-shadow: none;
@@ -202,14 +218,13 @@ p {
   background-color: #fff;
 }
 @media screen and (max-width: 400px) {
-  .grid2,
   .grid3,
   .grid {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 @media screen and (max-width: 700px) {
-  .grid2,
+
   .grid3,
   .grid {
     grid-template-columns: repeat(2, 1fr);

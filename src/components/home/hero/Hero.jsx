@@ -9,10 +9,10 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO YENEGE' title='Powering your global education dream' />
+            <Heading subtitle='WELCOME TO YENEGE' title='Your Journey to Wellness Begins Here!' />
             <p className="motto">Non-profit organization aiming to give Ethiopian nationals the best experience in India.</p>
             <div className='button'>
-              <Link className='btn1' to="/medical-tourism">
+              <Link className='btn1' to="/contact">
                 GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
               </Link>
               <Link className='btn2' to="/services">

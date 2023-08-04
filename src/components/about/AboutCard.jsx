@@ -24,7 +24,6 @@ const ServicesCard = () => {
                     <div className='text'>
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>
-                      <a>Load More...</a>
                     </div>
                   </div>
                 )

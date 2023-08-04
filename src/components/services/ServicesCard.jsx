@@ -10,23 +10,27 @@ const ServicesCard = () => {
     <>
       <section className='aboutHome'>
         <div className='container flexSB'>
-          <div className='left row'>
-            <img src='./images/about.webp' alt='' />
-          </div>
-          <div className='right row'>
+          {/* <div className='left row'>
+             <img src='./images/about.webp' alt='' /> 
+            <img src='./images/new/1.png' alt='' />
+            <img src='./images/new/4.png' alt='' />
+            <img src='./images/new/3.png' alt='' />
+          </div> */}
+          <div className='right'>
             <Heading subtitle='What We Do' title='We provide the following services' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
                   <Link to={val.link}>
-                  <div className='item flexSB'>
+                  <div className='item flex1'>
                     <div className='img'>
                       <img src={val.cover} alt='' />
                     </div>
                     <div className='text'>
                       <h2>{val.title}</h2>
-                      <p>{val.desc}</p>
-                      <a>Load More...</a>
+                      {val.desc.map(de=>(
+                        <p> - {de}</p>
+                      ))}
                     </div>
                   </div>
                   </Link>

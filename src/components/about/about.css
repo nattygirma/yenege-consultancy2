@@ -27,13 +27,13 @@
   padding: 20px;
   transition: 0.5s;
 }
-.aboutHome .img {
+/* .aboutHome .img {
   width: 200px;
-}
-.aboutHome img {
+} */
+/* .aboutHome img {
   width: 70px;
   height: 70px;
-}
+} */
 .aboutHome .item h2 {
   font-size: 20px;
   margin-bottom: 15px;

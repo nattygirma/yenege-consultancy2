@@ -1,6 +1,5 @@
 import React from "react"
 import  { Link } from "react-router-dom"
-import { blog } from "../../../dummydata"
 import "./footer.css"
 
 const Footer = () => {
@@ -22,7 +21,7 @@ const Footer = () => {
         <div className='footer-wrapper'>
           <div className='box logo footer-intro'>
             <h1>Yenege</h1>
-            <span>ONLINE EDUCATION CONSULTNACY AND MEDICAL TOURISM</span>
+            <span>MEDICAL TOURISM</span>
             <p> ETHIOPIANS FOR ETHIOPIANS.</p>
 
             <Link to="https://www.instagram.com/yenege.co/" target="_blank" rel="noopener noreferrer"><i className='fab fa-facebook-f icon'></i></Link>
@@ -60,11 +59,11 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +91 88 88 88 88
+                +91 9036299247
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                brighthopeconsultancy@gmail.com
+                yenege.co@gmail.com
               </li>
             </ul>
           </div>
@@ -72,7 +71,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2023 All rights reserved | Bright hope
+          Copyright ©2023 All rights reserved | YENEGE
         </p>
       </div>
     </>

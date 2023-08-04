@@ -10,7 +10,7 @@ const Head = () => {
           <img className="logopic" src="./images/logo-y.png" alt="Logo" width={55} height={55}/>
           <div className='logo'>
             <h1>YENEGE</h1>
-            <span>Educational Consultancy And Medical Tourism</span>
+            <span> Medical Tourism</span>
           </div>
           </div>
           <div className='social'>

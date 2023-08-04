@@ -16,27 +16,18 @@ const Header = () => {
             <li>
               <Link to='/'>Home</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to='/medical-tourism'>Medical Help</Link>
+            </li> */}
+            <li>
+              <Link to='/hospitals'>Partner Hospitals</Link>
             </li>
             <li>
-              <Link to='/universities'>Partner Universities</Link>
-            </li>
-            <li>
-              <Link to='/courses'>Courses</Link>
+              <Link to='/Treatments'>Treatments</Link>
             </li>
             <li>
               <Link to='/services'>Services</Link>
             </li>
-            <li>
-              <Link to='/team'>Team</Link>
-            </li>
-            {/* <li>
-              <Link to='/pricing'>Pricing</Link>
-            </li> */}
-            {/* <li>
-              <Link to='/journal'>Journal</Link>
-            </li> */}
             <li>
               <Link to='/contact'>Contact</Link>
             </li>

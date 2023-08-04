@@ -1,24 +1,74 @@
+export const steps = [
+  {
+    img:"./images/new/s-1.png",
+    heading:"GET IN TOUCH",
+    content:"You start your medical journey by sharing your medical history with us",
+  },
+  {
+    img:"./images/new/s-2.png",
+    heading:"FREE CONSULTATION",
+    content:"We arrange free medical consultations with leading doctors from the best hospitals in India",
+  },
+  {
+    img:"./images/new/s-3.png",
+    heading:"TREATMENT PLANNING",
+    content:"We assist you in treatment planning to optimize treatment cost and duration of stay in India",
+  },
+  {
+    img:"./images/new/s-4.png",
+    heading:"VISA AND FLIGHT",
+    content:"We arrange Visa invitation letters and assist in Flight options",
+  },
+  {
+    img:"./images/new/s-5.png",
+    heading:"ARRIVAL AND STAY",
+    content:"We arrange free airport pickup and provide stay options to fit your budget and comfort.",
+  },
+  {
+    img:"./images/new/s-6.png",
+    heading:"TREATMENT PHASE",
+    content:"A dedicated case manager coordinates with the hospital to ensure that the treatment stays on track.",
+  },
+  {
+    img:"./images/new/s-7.png",
+    heading:"FLY OUT OF INDIA",
+    content:"We arrange free Airport drop for you.",
+  },
+  {
+    img:"./images/new/s-8.png",
+    heading:"POST TREATMENT",
+    content:"We coordinate with you and the treating hospital for all your Post treatment needs.",
+  },
+
+]
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Educational consultancy",
-    link:"/educational-consultancy",
-    desc: "We provide upto 100% scholarship for Ethiopian undergraduate, graduate and post-graduate students to study in india.",
+    cover: "./images/new/4.png",
+    title: "Before Treatment",
+    link:"/medical-tourism",
+    desc: ["We arrange free medical consultations with leading doctors from the best hospitals in India.","We assist you in treatment planning to optimize treatment cost and duration of stay in India.","We also arrange Visa invitation letters and assist in Flight options."],
   },
   {
     id: 2,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Medical Tourism Assistance for Ethiopians getting treatment in India",
+    cover: "./images/new/10.png",
+    title: "After Arrival",
     link:"/medical-tourism",
-    desc: "We Provide end-to-end assistance for patients traveling to India for medical treatments. This includes organizing travel arrangements, accommodation, and local transportation. ",
+    desc: ["We arrange free Airport pickup for you.","We coordinate with you and the treating hospital for all your Post treatment needs.","We arrange free airport pickup and provide stay options to fit your budget and comfort"],
   },
   {
     id: 3,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Business Matchmaking",
+    cover: "./images/new/1.png",
+    title: "During Treatment",
+    link:"/medical-tourism",
+    desc: ["A dedicated case manager coordinates with the hospital to ensure that the treatment stays on track"],
+  },
+  {
+    id: 4,
+    cover: "./images/new/9.png",
+    title: "After Treatment",
     link:"/b2b",
-    desc: "We facilitate business matchmaking between companies in Africa and businesses from other continents. Our platform connects businesses based on their industry, products/services, and specific requirements. By fostering collaboration and partnerships, we encourage mutual growth and create a thriving business ecosystem.",
+    desc: ["We arrange free Airport drop for you.","We coordinate with you and the treating hospital for all your Post treatment needs."],
   }
 
 ]
@@ -45,159 +95,149 @@ export const awrapper = [
     title: "COURSES",
   },
 ]
-export const coursesCard = [
+export const treatmentsCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
-    coursesName: "Introduction to GRE test",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/Natnael.jpg",
-        name: "by Natnael Fisseha",
-        totalTime: "5 lectures (1.2 hrs)",
-      },
+    header:"Cancer Treatments",
+    img:"https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F97ca59eb9381a735e5af61fe21925a3a.cdn.bubble.io%2Ff1661358711940x455134791225932500%2FWhatsApp%2520Image%25202022-08-24%2520at%252010.01.08%2520PM.jpeg?w=384&h=348&auto=compress&dpr=1.5&fit=max",
+    details: [
+"Chemotherapy",
+"SRS",
+"Breast Cancer Surgery"
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
-    coursesName: "Introduction to IELTS",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/eyob.jpg",
-        name: "by Eyob Yosef",
-        totalTime: "3 lectures (1 hr)",
-      },
+    header:"Transplants",
+    img:"/images/new/6.jpg",
+    details: [
+      "Kidney Transplant",
+      "Liver Transplant",
+      "Bone Marrow Transplant"
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
-    coursesName: "Introduction to SAT",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/mk.jpg",
-        name: "by Meky Jemal",
-        totalTime: "5 lectures (5 hrs)",
-      },
+    header:"Bone and Spine",
+    img:"https://www.orlandohealth.com/neurospine/-/media/images/orlando-health/microsites/neurospine/neurospine_infoimage_conditions_treatments_400x450.jpg",
+    details: [
+"Spinal Fusion",
+"Laminectomy",
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
   },
   {
     id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "Introduction to GMAT",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/leul.jpg",
-        name: "by Leul Zeyede",
-        totalTime: "2 lectures (2 hrs)",
-      },
+    header:"Cardiology",
+    img:"/images/new/5.jpg",
+    details: [
+      "Angioplasty",
+      "Bypass Surgery",
+      "Valve Replacement",
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
   },
   {
     id: 5,
-    cover: "../images/courses/c5.png",
-    coursesName: "Introduction to dualingo",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/eyob.jpg",
-        name: "by Eyob Yosef",
-        totalTime: "2 lectures (2 hrs)",
-      },
+    header:"Joint Replacement",
+    img:"https://domf5oio6qrcr.cloudfront.net/medialibrary/11564/1dc98043-caaf-46ae-a380-a2fa4cea97eb.jpg",
+    details: [
+      "Knee Replacement",
+"Hip Replacement",
+"ACL Reconstruction",
+
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
   },
   {
     id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "Introduction To TOFEL",
-    courTeacher: [
-      {
-        dcover: "./images/team-members/mk.jpg",
-        name: "by Meky Jemal",
-        totalTime: "2 lectures (2 hrs)",
-      },
+    header:"Cosmetic",
+    img:"/images/new/0.jpg",
+    details: [
+      "Rhinoplasty",
+"Abdominoplasty",
+"Breast Lift",
+
     ],
-    priceAll: "Free",
-    pricePer: " All Courses",
-  }
+  },
+  {
+    id: 7,
+    header:"Brain Surgeries",
+    img:"https://scitechdaily.com/images/Human-Brain-Anatomy-X-ray.jpg",
+    details: [
+      "Deep Brain Stimulation for Parkinson's",
+     " Peripheral Nerve Surgery"
+
+    ],
+  },
+
+  {
+    id: 8,
+    header:"Gynecology",
+    img:"/images/new/8.jpg",
+    details: [
+      "Lap Hysterectomy",
+     "Myomectomy-hysteroscopic"
+
+    ],
+  },
+  {
+    id: 9,
+    header:"Urology",
+    img:"http://urologyaustin.com/wp-content/uploads/2018/07/iStock-531985630.jpg",
+    details: [
+      "Bladder Neck Incision",
+     "Varielectomy",
+     "Inguinal Hernioplasy"
+
+    ],
+  },
+  {
+    id: 10,
+    header:"IVF",
+    img:"https://worldfertilityservices.com/wp-content/uploads/2022/07/hand-drawn-flat-design-ivf-infographic_23-2149375846.webp",
+    details: [
+      "In-vitro Fertilization",
+     "ICSI",
+     "Frozen Embryo Transfer"
+
+    ],
+  },
+
+  
+
+
+ 
 ]
 export const online = [
   {
-    cover: "./images/universities/jainuniversity.png",
+    cover: "https://www.healthyatra.com/wp-content/uploads/2018/09/Apollo-Hospitals-Greams-Road-Chennai-logo.gif",
     hoverCover: "",
-    courseName: "Jain University",
-    course: "Multiple Courses",
+    courseName: "Apollo Hospitals",
+    course: "Multiple",
   },
   {
-    cover: "./images/universities/marwadiuniversity.png",
+    cover: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F97ca59eb9381a735e5af61fe21925a3a.cdn.bubble.io%2Ff1663308313645x104391655316482320%2Fimages.jfif?w=384&h=282&auto=compress&dpr=1.5&fit=max",
     hoverCover: "",
-    courseName: "Marwadi University",
-    course: "Multiple Courses",
+    courseName: "Fortis Hospitals",
+    course: "Multiple",
   },
   {
-    cover: "./images/universities/cu.jpg",
-    hoverCover: "./images/universities/cu.jpg",
-    courseName: "Chandigarh University",
-    course: "Multiple Courses",
+    cover: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F97ca59eb9381a735e5af61fe21925a3a.cdn.bubble.io%2Ff1661360366558x835185283131021300%2FWhatsApp%2520Image%25202022-08-24%2520at%252010.09.47%2520PM.jpeg?w=384&h=282&auto=compress&dpr=1.5&fit=max",
+    hoverCover: "",
+    courseName: "Max Hospitals",
+    course: "17 Facilities",
   },
   {
-    cover: "./images/universities/gu.jpg",
-    hoverCover: "./images/universities/gu.jpg",
-    courseName: "Guru Kashi University",
-    course: "Multiple Courses",
+    cover: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F97ca59eb9381a735e5af61fe21925a3a.cdn.bubble.io%2Ff1661359771364x338727070898257700%2FWhatsApp%2520Image%25202022-08-24%2520at%252010.12.42%2520PM.jpeg?w=384&h=282&auto=compress&dpr=1.5&fit=max",
+    hoverCover: "",
+    courseName: "Manipal Hospitals",
+    course: "Multiple",
   },
   {
-    cover: "./images/universities/ggu.jpg",
-    hoverCover: "./images/universities/ggu.jpg",
-    courseName: "Global Group Of Institutes",
-    course: "30 Courses",
+    cover: "https://www.miotinternational.com/wp-content/uploads/2014/12/miot-international-logo.gif",
+    hoverCover: "",
+    courseName: "MIOT International Hospital",
+    course: "Multiple",
   },
-  {
-    cover: "./images/universities/su.png",
-    hoverCover: "./images/universities/su.png",
-    courseName: "SRM University",
-    course: "10 Courses",
-  },
-  // {
-  //   cover: "./images/courses/online/o8.png",
-  //   hoverCover: "./images/courses/online/o8.1.png",
-  //   courseName: "Marketing",
-  //   course: "30 Courses",
-  // },
-  // {
-  //   cover: "./images/courses/online/o9.png",
-  //   hoverCover: "./images/courses/online/o9.1.png",
-  //   courseName: "Graphic Design",
-  //   course: "80 Courses",
-  // },
-  // {
-  //   cover: "./images/courses/online/o10.png",
-  //   hoverCover: "./images/courses/online/o10.1.png",
-  //   courseName: "Music",
-  //   course: "120 Courses",
-  // },
-  // {
-  //   cover: "./images/courses/online/o11.png",
-  //   hoverCover: "./images/courses/online/o11.1.png",
-  //   courseName: "Business Administration",
-  //   course: "17 Courses",
-  // },
-  // {
-  //   cover: "./images/courses/online/o12.png",
-  //   hoverCover: "./images/courses/online/o12.1.png",
-  //   courseName: "Web Management",
-  //   course: "17 Courses",
-  // },
+
 ]
 export const team = [
   {
@@ -205,15 +245,15 @@ export const team = [
     name: "Engineer Natnael Fisseha",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
-  {
-    cover: "./images/team-members/mk.jpg",
-    name: "Engineer Meky Jemal",
-    work: "CHIEF MARKETING EXECUTIVE",
-  },
+  // {
+  //   cover: "./images/team-members/mk.jpg",
+  //   name: "Engineer Meky Jemal",
+  //   work: "CHIEF MARKETING EXECUTIVE",
+  // },
   {
     cover: "./images/team-members/leul.jpg",
     name: "Engineer Leul Amare",
-    work: "CEO",
+    work: "MARKETING MANAGER",
   },
   {
     cover: "./images/team-members/eyob.jpg",
@@ -223,7 +263,7 @@ export const team = [
   {
     cover: "./images/team-members/tofu.jpg",
     name: "Engineer Tesfaye Belay",
-    work: "LEADING RECRUTER",
+    work: "CEO",
   }
 ]
 export const price = [
@@ -250,29 +290,22 @@ export const price = [
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How do I contact Yenege?",
+    desc: "You can contact us through our email and you can chat with us on what's up and telegram on our registered phone number +919036299247 or +917760261060",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Is there any fee customers have to pay?",
+    desc: "we don't accept any fees from customers, everything is completely FREE",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What happens after I land in India?",
+    desc: "We will be with you until you finish your treatment and return back home, We have many ethiopians here in india to help you through out your journey here.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What If I need a translator?",
+    desc: "Our team will assign you a translator, again for FREE.",
   },
-  {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
+
 ]
 export const blog = [
   {
