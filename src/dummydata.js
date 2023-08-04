@@ -12,7 +12,7 @@ export const steps = [
   {
     img:"./images/new/s-3.png",
     heading:"TREATMENT PLANNING",
-    content:"We assist you in treatment planning to optimize treatment cost and duration of stay in India",
+    content:"We assist you in treatment planning to optimize treatment cost and duration of stay in India.",
   },
   {
     img:"./images/new/s-4.png",
