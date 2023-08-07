@@ -32,11 +32,10 @@ const Footer = () => {
           <div className='link footer-explore'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+              <li><Link to="/services">About Us</Link></li>
+              <li><Link to="/hospitals">Partner Hospitals</Link></li>
+              <li><Link to="/treatments">Treatments</Link></li>
+              <li><Link to="/contact">Contact us</Link></li>
             </ul>
           </div>
           <div className='box link footer-quick-links'>

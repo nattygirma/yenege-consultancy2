@@ -1,40 +1,48 @@
 export const steps = [
   {
-    img:"./images/new/s-1.png",
+    id:1,
+    img:"../public/images/new/s-1.png",
     heading:"GET IN TOUCH",
     content:"You start your medical journey by sharing your medical history with us",
   },
   {
+    id:2,
     img:"./images/new/s-2.png",
     heading:"FREE CONSULTATION",
     content:"We arrange free medical consultations with leading doctors from the best hospitals in India",
   },
   {
+    id:3,
     img:"./images/new/s-3.png",
     heading:"TREATMENT PLANNING",
     content:"We assist you in treatment planning to optimize treatment cost and duration of stay in India.",
   },
   {
+    id:4,
     img:"./images/new/s-4.png",
     heading:"VISA AND FLIGHT",
     content:"We arrange Visa invitation letters and assist in Flight options",
   },
   {
+    id:5,
     img:"./images/new/s-5.png",
     heading:"ARRIVAL AND STAY",
     content:"We arrange free airport pickup and provide stay options to fit your budget and comfort.",
   },
   {
+    id:6,
     img:"./images/new/s-6.png",
     heading:"TREATMENT PHASE",
     content:"A dedicated case manager coordinates with the hospital to ensure that the treatment stays on track.",
   },
   {
+    id:7,
     img:"./images/new/s-7.png",
     heading:"FLY OUT OF INDIA",
     content:"We arrange free Airport drop for you.",
   },
   {
+    id:8,
     img:"./images/new/s-8.png",
     heading:"POST TREATMENT",
     content:"We coordinate with you and the treating hospital for all your Post treatment needs.",
@@ -299,7 +307,7 @@ export const faq = [
   },
   {
     title: "What happens after I land in India?",
-    desc: "We will be with you until you finish your treatment and return back home, We have many ethiopians here in india to help you through out your journey here.",
+    desc: "We will be with you until you finish your treatment and return back home, We work with many ethiopians here in india to help you through out your journey here.",
   },
   {
     title: "What If I need a translator?",

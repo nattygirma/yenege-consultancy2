@@ -148,16 +148,16 @@ p {
   background-image:linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)),  url("../public/images/new/3a.png") !important;
 }
 .back-s{
-  background-image:linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-4.jpeg") !important;
+  background-image:linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-services.jpeg") !important;
 }
 .back-ec{
-  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-4.png") !important;
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-h.jpeg") !important;
 }
 .back-treatments{
-  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-2.png") !important;
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-t.jpeg") !important;
 }
 .back-contact{
-  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-5.png") !important;
+  background-image: linear-gradient(rgba(0, 51, 7, 0.193), rgba(0, 49, 11, 0.423)), url("../public/images/new/bg-customer1.jpeg") !important;
 }
 .back h1 {
   font-size: 100px;
